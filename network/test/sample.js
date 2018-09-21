@@ -18,7 +18,6 @@ const BusinessNetworkConnection = require('composer-client').BusinessNetworkConn
 
 require('chai').should();
 
-// const network = 'zerotoblockchain-network';
 const _timeout = 90000;
 const NS = 'org.acme.Z2BTestNetwork';
 const orderNo = '12345';
@@ -51,7 +50,6 @@ let orderStatus = {
     'Refund': {'code': 12, 'text': 'Order Refund Requested'},
     'Refunded': {'code': 13, 'text': 'Order Refunded'}
 };
-
 
 /**
  * create an empty order
